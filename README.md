@@ -1,15 +1,6 @@
 # IdeaForge
 
 
-<!-- Author: everettjf -->
-```bash
-export OPENAI_API_KEY=sk-...
-git clone git@github.com:everettjf/IdeaForge.git
-cd IdeaForge
-uv sync --extra dev
-uv run ideaforge plan "an todo list app with swiftui on ios"
-```
-
 
 <p align="center">
   <img src="https://img.shields.io/badge/IdeaForge-LangGraph%20Planner-5531FF?style=for-the-badge" alt="IdeaForge badge" />
@@ -68,6 +59,9 @@ export OPENAI_API_KEY=sk-...
 
 # 4. Install dependencies (creates .venv)
 uv sync --extra dev
+
+# 5. Start generating plan
+uv run ideaforge plan "an todo list app with swiftui on ios"
 ```
 
 ---
