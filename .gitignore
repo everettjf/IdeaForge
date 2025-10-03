@@ -1,0 +1,13 @@
+*.pyc
+*.egg-info
+.venv
+.DS_Store
+.idea
+.pytest_cache
+.ruff_cache
+.vscode
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
